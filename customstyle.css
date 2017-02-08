@@ -36,6 +36,12 @@ body {
 	color: #C0C0C0;
 }
 
+#title {
+	text-align: center;
+	font-size: 5vw;
+	text-shadow: 2px 2px #222222;
+}
+
 ul {
 	list-style-type: square;
 }
