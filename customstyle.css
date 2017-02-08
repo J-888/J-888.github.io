@@ -28,12 +28,27 @@ body {
     color: red;
 }
 
-.greencolor {
+.greencolor, pre {
     color: lime;
 }
 
-.whitecolor, p, span, a, etc, pre {
-	color: #C0C0C0
+.whitecolor, p, span, etc {
+	color: #C0C0C0;
+}
+
+ul {
+	list-style-type: square;
+}
+
+a {
+	color: blue;
+	border: 3px solid transparent;
+	padding: 2px
+}
+
+a:hover {
+	border: 3px solid blue;
+	text-decoration: none;
 }
 
 #console {
@@ -43,5 +58,5 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:100px;
-	font-size:14px;
+	font-size: 2.3vmin;
 }

@@ -1,17 +1,24 @@
 <pre>
-C:\> WhoAmI
+<span class="whitecolor">C:\> WhoAmI</span>
 
     José Miguel Tajuelo Garrigós
 
-C:\> studying
+<span class="whitecolor">C:\> studying</span>
 
     Bachelor of Computer Science @ Complutense University of Madrid
-     └-> Theory of Computation
+    └-> Theory of Computation
 
-C:\> insterests
+<span class="whitecolor">C:\> insterests</span>
     _
     ├-> Evolutionary Programming
     ├-> Robotics
     ├-> Web Engineering
     └-> Machine Learning
 </pre>
+<span class="whitecolor">C:\> links</span>
+<ul>
+<pre>
+<li><a target="_blank" href="https://github.com/J-888">GitHub</a></li>
+<li><a target="_blank" href="https://www.linkedin.com/in/josemigueltajuelo/">LinkedIn</a></li>
+</pre>
+</ul>
