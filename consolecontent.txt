@@ -1,6 +1,8 @@
-<p> Test_test <p>
-<p> Test_test <p>
-<p> Test_test <p>
-<p> Test_test <p>
-<p> Test_test <p>
-<p> Test_test <p>
+C:\> WhoAmI
+
+    José Miguel Tajuelo Garrigós
+
+C:\> studying
+
+    Bachelor of Computer Science @ Complutense University of Madrid
+    └-> Theory of Computation
