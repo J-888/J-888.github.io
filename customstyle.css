@@ -20,7 +20,7 @@ body {
     font-family: "Lucida Console", Monaco, monospace;
 }
 
-.courier, p, span, a, etc {
+.courier, p, span, a, etc, pre {
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -32,7 +32,7 @@ body {
     color: lime;
 }
 
-.whitecolor, p, span, a, etc {
+.whitecolor, p, span, a, etc, pre {
 	color: #C0C0C0
 }
 

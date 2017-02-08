@@ -1,3 +1,4 @@
+<pre>
 C:\> WhoAmI
 
     José Miguel Tajuelo Garrigós
@@ -5,4 +6,12 @@ C:\> WhoAmI
 C:\> studying
 
     Bachelor of Computer Science @ Complutense University of Madrid
-    └-> Theory of Computation
+     └-> Theory of Computation
+
+C:\> insterests
+    _
+    ├-> Evolutionary Programming
+    ├-> Robotics
+    ├-> Web Engineering
+    └-> Machine Learning
+</pre>
