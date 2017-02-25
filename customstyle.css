@@ -47,13 +47,13 @@ ul {
 }
 
 a {
-	color: blue;
+	color: #00FFFF;
 	border: 3px solid transparent;
 	padding: 2px
 }
 
 a:hover {
-	border: 3px solid blue;
+	border: 3px solid #00FFFF;
 	text-decoration: none;
 }
 
