@@ -135,8 +135,9 @@ function replaceUrls(text) {
 }
 Typer.speed = 3;
 var currenthref = $(location).attr('href');
+var modifiedhref = currenthref.substring( currenthref.lastIndexOf("/")+1, currenthref.length);
 //Typer.file = "consoleContent/" + currenthref.replace(/\.html$/, ".txt";
-Typer.file = "consoleContent/" + currenthref;
+Typer.file = "consoleContent/" + modifiedhref;
 Typer.init();
 
 var timer = setInterval("t();", 30);
