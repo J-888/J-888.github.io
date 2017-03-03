@@ -67,3 +67,8 @@ a:hover {
 	font-size: 2.25vmin;
 	/*font-size: 2.3vmin;*/
 }
+
+pre {
+	background-color: transparent;
+	border: 1px solid #f00;
+}
