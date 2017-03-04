@@ -73,3 +73,7 @@ pre {
 	border: 0;
 	/*border: 1px solid #f00;*/
 }
+
+.thumbnail > br	{
+	font-size: 0;
+}
