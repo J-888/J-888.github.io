@@ -115,7 +115,7 @@ var Typer = {
 	},
 
 	updLstChr: function() { // blinking cursor
-		if(this.file != "consoleContent/showcase.html") {
+		if(this.file != "consoleContent/showcase.html" && this.file != "consoleContent/showcase") {
 			var cont = this.content(); // get console 
 			if (cont.substring(cont.length - 1, cont.length) == "|") // if last char is the cursor
 				$("#console").html($("#console").html().substring(0, cont.length - 1)); // remove it
