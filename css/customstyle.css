@@ -73,11 +73,9 @@ a:hover {
 	text-decoration: none;
 }
 
-#console, #console > *, #console > * > * {
+#console {
 	font-family: courier, monospace;
 	color: #fff;
-	font-size: 7.4px;
-	line-height: 1.42857;
 	/*width:750px;
 	margin-left:auto;
 	margin-right:auto;
@@ -113,6 +111,11 @@ pre {
 
 .marginless {
 	margin: 0;
+}
+
+#console, #console > *, #console > * > * {
+	font-size: 7.4px;
+	line-height: 1.1;
 }
 
 /* Extra small devices (phones, less than 768px) */
