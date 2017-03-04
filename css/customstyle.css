@@ -117,14 +117,14 @@ pre {
 /* Extra small devices (phones, less than 768px) */
 @media(min-width:576px){
 	#console, #console > *, #console > * > * {
-		font-size: 14px;
+		font-size: 12px;
 	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px){
 	#console, #console > *, #console > * > * {
-		font-size: 18px;		
+		font-size: 17px;		
 	}
 }
 
