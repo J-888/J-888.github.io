@@ -122,14 +122,14 @@ pre {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+@media (min-width: @screen-sm-min) {
 	#console, #console > *, #console > * > * {
 		font-size: 18px;		
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+@media (min-width: @screen-md-min) {
 	#console, #console > *, #console > * > * {
 		font-size: 22px;		
 	}
