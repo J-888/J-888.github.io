@@ -60,11 +60,11 @@ a:hover {
 #console {
 	font-family: courier, monospace;
 	color: #fff;
-	width:750px;
+	/*width:750px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:100px;
-	font-size: 2.25vmin;
+	font-size: 2.25vmin;*/
 	/*font-size: 2.3vmin;*/
 }
 
