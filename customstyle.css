@@ -1,35 +1,43 @@
 html {
-    height: 100%
+	height: 100%
 }
 
 body {
-    background: var(#000000);
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#333333, #000000);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#333333, #000000);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#333333, #000000);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#333333, #000000);
-    /* Standard syntax (must be last) */
-    background-attachment: fixed;
+	background: var(#000000);
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#333333, #000000);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#333333, #000000);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#333333, #000000);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#333333, #000000);
+	/* Standard syntax (must be last) */
+	background-attachment: fixed;
 }
 
 .console {
-    font-family: "Lucida Console", Monaco, monospace;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 .courier, p, span, a, etc, pre {
-    font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
 }
 
 .redcolor {
-    color: red;
+	color: red;
 }
 
 .greencolor, pre {
-    color: lime;
+	color: lime;
+}
+
+.cyancolor, pre {
+	color: cyan;
+}
+
+.orangecolor {
+	color: #ffb300;
 }
 
 .whitecolor, p, span, etc {
@@ -52,8 +60,12 @@ a {
 	padding: 2px
 }
 
-a:hover {
-	border: 3px solid #00FFFF;
+.cyanHighlight:hover {
+	border: 3px solid cyan;
+	text-decoration: none;
+}
+
+.clean:hover {
 	text-decoration: none;
 }
 
@@ -76,4 +88,23 @@ pre {
 
 .thumbnail {
 	line-height: 0;
+	background-color: black;
+	border: 3px solid #777;
+	border-radius: 10px;
+}
+
+.thumbnail:hover {
+	border: 3px solid cyan;
+}
+
+.img-rounded {
+	border-radius: 4px;
+	/*border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;*/
+}
+
+.marginless {
+	margin: 0;
 }
