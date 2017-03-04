@@ -116,28 +116,28 @@ pre {
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: @screen-xs-max) {
-	#console {
+	#console, #console > *, #console > * > * {
 		font-size: 14px;
 	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-	#console {
+	#console, #console > *, #console > * > * {
 		font-size: 18px;		
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-	#console {
+	#console, #console > *, #console > * > * {
 		font-size: 22px;		
 	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
-	#console {
+	#console, #console > *, #console > * > * {
 		font-size: 26px;		
 	}
 }
