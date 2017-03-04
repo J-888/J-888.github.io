@@ -1,6 +1,5 @@
 html {
 	height: 100%
-	font-size: 14px;
 }
 
 body {
@@ -116,15 +115,17 @@ pre {
 }
 
 /* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+@media (max-width: @screen-xs-max) {
+	font-size: 14px;
+}
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
 	font-size: 18px;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
 	font-size: 22px;
 }
 
