@@ -113,35 +113,40 @@ pre {
 	margin: 0;
 }
 
-#console, #console > *, #console > * > * {
+.index-console, .index-console > *, .index-console > * > * {
 	font-size: 7.4px;
+	line-height: 1.1;
+}
+
+.showcase-console, .showcase-console > *, .showcase-console > * > * {
+	font-size: 20px;
 	line-height: 1.1;
 }
 
 /* Extra small devices (phones, less than 768px) */
 @media(min-width:576px){
-	#console, #console > *, #console > * > * {
+	.index-console, .index-console > *, .index-console > * > * {
 		font-size: 12px;
 	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px){
-	#console, #console > *, #console > * > * {
+	.index-console, .index-console > *, .index-console > * > * {
 		font-size: 17px;		
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px){
-	#console, #console > *, #console > * > * {
+	.index-console, .index-console > *, .index-console > * > * {
 		font-size: 20px;		
 	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media(min-width:1200px){
-	#console, #console > *, #console > * > * {
+	.index-console, .index-console > *, .index-console > * > * {
 		font-size: 20px;		
 	}
 }
