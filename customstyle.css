@@ -60,6 +60,10 @@ a {
 	padding: 2px
 }
 
+a:hover {
+	color: #00FFFF;
+}
+
 .cyanHighlight:hover {
 	border: 3px solid cyan;
 	text-decoration: none;
