@@ -143,6 +143,9 @@ pre {
 
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px){
+	.index-console {
+		width: 970px;
+	}
 	.index-console, .index-console > *, .index-console > * > * {
 		font-size: 20px;		
 	}
@@ -150,6 +153,9 @@ pre {
 
 /* Large devices (large desktops, 1200px and up) */
 @media(min-width:1200px){
+	.index-console {
+		width: 1170px;
+	}
 	.index-console, .index-console > *, .index-console > * > * {
 		font-size: 20px;		
 	}
