@@ -123,6 +123,10 @@ pre {
 	line-height: 1.1;
 }
 
+.showcase-console {
+	margin: 15px;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media(min-width:576px){
 	.index-console, .index-console > *, .index-console > * > * {
