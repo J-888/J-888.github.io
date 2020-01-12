@@ -135,7 +135,7 @@ function replaceUrls(text) {
 		return text
 	}
 }
-Typer.speed = 3;
+Typer.speed = 5;
 var currenthref = $(location).attr('href');
 var modifiedhref = currenthref.substring( currenthref.lastIndexOf("/")+1, currenthref.length);
 //Typer.file = "consoleContent/" + currenthref.replace(/\.html$/, ".txt";
