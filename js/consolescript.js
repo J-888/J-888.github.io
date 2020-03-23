@@ -139,7 +139,7 @@ Typer.speed = 5;
 var currenthref = $(location).attr('href');
 var modifiedhref = currenthref.substring( currenthref.lastIndexOf("/")+1, currenthref.length);
 //Typer.file = "consoleContent/" + currenthref.replace(/\.html$/, ".txt";
-Typer.file = "consoleContent/" + modifiedhref;
+Typer.file = "/consoleContent/" + modifiedhref;
 Typer.init();
 
 var timer = setInterval("t();", 30);
